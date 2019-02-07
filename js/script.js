@@ -1,4 +1,3 @@
-console.log("hallo wereld");
 
 var subjects = 
 [
@@ -24,7 +23,7 @@ var subjects =
 		{name: "PvdA", position: "contra", explanation: "Wij willen dat mensen zelf de toekomst van ons land kunnen bepalen. De PvdA is daarom voorstander van directe democratie. Daarom hebben we een raadgevend referendum en willen we experimenteren met andere vormen van directe democratie zoals G1000 en buurtrechten."},
 		{name: "CDA", position: "contra", explanation: "Een referendum is geen geschikt instrument om de democratie te versterken. Een gekozen politicus moet altijd verantwoording afleggen over zijn stem, een kiezer in een referendum niet. Kiezers hoeven hun tegenstem in een referendum ook niet van een uitvoerbaar alternatief te voorzien, politieke partijen in de Kamer wel."},
 		{name: "ChristenUnie", position: "contra", explanation: "De ChristenUnie is tegen een referendum, de bevolking kiest al rechtstreeks haar vertegenwoordigers. Dat is de Ã¢â‚¬Ëœrepresentatieve democratieÃ¢â‚¬â„¢ waar de ChristenUnie voor staat. Wel komt er, om onze vrijheidsrechten uit de grondwet te beschermen een Constitutioneel Hof dat wetten toetst aan de Grondwet."},
-		{name: "SGP", position: "contra", explanation: "Het is belangrijk dat politici goed contact onderhouden met de samenleving. Referenda passen echter niet in een stelsel van gekozen volksvertegenwoordigers. Bovendien scheppen ze meer verwarring dan helderheid. Daarom kan de referendumwet in de prullenbak."},
+		{	name: "SGP", position: "contra", explanation: "Het is belangrijk dat politici goed contact onderhouden met de samenleving. Referenda passen echter niet in een stelsel van gekozen volksvertegenwoordigers. Bovendien scheppen ze meer verwarring dan helderheid. Daarom kan de referendumwet in de prullenbak."},
 		{name: "OndernemersPartij", position: "contra", explanation: "Nederland heeft reeds een zeer directe democratie."},
 		{name: "DENK", position: "contra", explanation: "DENK is tegen bindende referenda. Moeilijke maatschappelijke kwesties zijn niet te vatten in een simpel 'ja' of 'nee'. DENK is voor een representatieve democratie waarin gekozen volksvertegenwoordigers de overwegingen en gevoelens van hun achterban actief laten meewegen in hun stemgedrag. Daarom wil DENK maatregelen nemen om onze representatieve democratie te versterken."},
 		{name: "Artikel 1", position: "contra", explanation: "De Tweede Kamer is de volksvertegenwoordiging die vraagstukken in al hun complexiteit kan beoordelen. Referenda zijn daar zelden geschikt voor. Bij grote nieuwe politieke beslissingen met heldere Ja/Nee opties kunnen referenda wel nuttig zijn."}
