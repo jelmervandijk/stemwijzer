@@ -5,6 +5,23 @@ html {
   height: 100%;
   overflow: hidden;
 }
+
 #answerbox {
 	background-color: white;
+	visibility: hidden;
+	display: block;
+}
+
+.titel {
+	color: blue;
+}
+
+.hidden {
+	display: none;
+	visibility: hidden;
+}
+
+.show {
+	display: block;
+	visibility: visible;
 }

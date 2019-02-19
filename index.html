@@ -8,28 +8,25 @@
 </head>
 <body>
 <div class="w3-row">
-  <div class="w3-container w3-quarter">
+  <div class="w3-container w3-quarter ">
   </div>
-  <div id="container" class="w3-white w3-container w3-half">
-  	<img src="images/logo.PNG" id="imglogo"><br>	
-  	<b id="texttitel">StemWijzer Tweede Kamer 2017</b>
-  	<h2 style="color: #01BFE8;" id="testtekst">Test uw politieke voorkeur aan de hand van 7 stellingen</h2>
-  	 <div id="eye" class="w3-container" style="width: 68%;"><img src="images/persoon.ico"><a class="intro__xsable" href="xsable" style="text-decoration: none;">Bekijk de toegankelijke versie voor mensen met een visuele beperking</a><br></div>
-  	 <div id="lock" class="w3-container" style="width: 56%;"><img src="images/lock.ico"><a class="intro__xsable" href="privacy.html" style="text-decoration: none;">De StemWijzer maakt geen gebruik van cookies. Klik hier voor de volledige privacy statement</a></div>
-  	<button id="start" class="w3-button w3-black w3-xlarge w3-block w3-right" style="width:30%">start</button>
-    <h2 id="title" style="display: none;"></h2>
-    <p id="statement" style="display: none;"></p>
+  <div id="container" class="w3-white w3-container w3-half w3-center">
+    <a id="back" href="index.html"><img class="hidden" id="backImg" src="images/pil.ico"></a>
+  	<button id="start">start</button>
+    <h2 id="title"></h2>
+    <p id="statement"></p>
 
       <div id="answerbox">
-        <button class="w3-button w3-black w3-xlarge w3-block w3-right" style="width:30%; visibility: hidden;" id="eens">eens</button></li>
-        <button class="w3-button w3-black w3-xlarge w3-block w3-right" style="width:30%; visibility: hidden;" id="neutraal">geen van beide</button></li>
-        <button class="w3-button w3-black w3-xlarge w3-block w3-right" style="width:30%;visibility: hidden" id="oneens">oneens</button>
+        <button class="btn" id="pro">eens</button>
+        <button class="btn" id="ambivalent">geen van beide</button> 
+        <button class="btn" id="contra">oneens</button> 
+        <button class="btn" id="skip">sla deze vraag over</button>
     </div>
   </div>
-  <div class="w3-container w3-quarter">
-  </div>
-</div>
+
+<footer>
+   <script type="text/javascript" src="js/data.js"></script>
   <script type="text/javascript" src="js/script.js"></script>
-  <script type="text/javascript" src="js/data.js"></script>
+</footer>  
 </body>
 </html>
